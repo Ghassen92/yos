@@ -3,6 +3,8 @@
 import { AccountService } from './_services';
 import { User } from './_models';
 
+// tslint:disable-next-line:component-selector
+// @ts-ignore
 @Component({ selector: 'app', templateUrl: 'app.component.html' })
 export class AppComponent {
     user: User;
